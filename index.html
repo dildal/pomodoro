@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock | Michael Dally</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,500" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="title">
+			<h1>Donny's Pomodoro Clock</h1>
+		</header>
+		<div class="break">
+			<h4>Break Length</h4>
+			<div class="setter">
+				<button class="break-minus">-</button>
+				<p class="time break-time">5</p>
+				<button class="break-plus">+</button>
+			</div>
+		</div>
+
+		<div class="session">
+			<h4>Session Length</h4>
+			<div class="setter">
+				<button class="session-minus">-</button>
+				<p class="time session-time">25</p>
+				<button class="session-plus">+</button>
+			</div>
+		</div>
+
+		<div class="pomodoro">
+			<div class="pomodoro-content">
+				<h2 class="clock-title">Session</h2>
+				<p class="time-left">25:00</p>
+			</div>
+		</div>
+	</div>
+
+	<audio src="sounds/alarm.wav"></audio>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
